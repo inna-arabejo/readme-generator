@@ -51,13 +51,13 @@ const questions = () => {
 
     {
       type: "input",
-      message: "What are the instructions to test this application?",
+      message: "How can a user test this application?",
       name: "tests"
     },
 
     {
       type: "input",
-      message: "Enter your GitHub username for any questions a user may have.",
+      message: "For user inquiries, enter your GitHub username.",
       name: "github_username"
     },
 
@@ -65,16 +65,32 @@ const questions = () => {
       type: "input",
       message: "Enter your email address for any additional questions a user may have.",
       name: "email"
-    },
+    }
     
+  ]).then();
 
-  ]);
+}
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, function(err) {
+    console.log(fileName)
+    console.log(data)
+    if (err) {
+      return console.log(err)
+    } else {
+      console.log("Your README file is now complete.")
+    }
+  })
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then(function(data) {
+    writeToFile("README.md", generateMarkdown(data));
+    console.log(data)
+  })
+}
 
 // Function call to initialize app
 init();
