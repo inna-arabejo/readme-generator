@@ -37,6 +37,9 @@
   ## Walkthrough
 https://user-images.githubusercontent.com/99289319/160344827-9f03f377-2cd5-4aeb-a045-4d8da0a1b58d.mp4
 
+  ## Screenshot
+  ![sample-readme-walkthrough](https://user-images.githubusercontent.com/99289319/160345529-5a67605e-7ba6-4b63-96be-7013009794bd.jpg)
+  
   ## License
   This project is covered under MIT.
 
