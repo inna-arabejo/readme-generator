@@ -33,6 +33,9 @@
   - Different ways for other developers to contribute.
   - How a user can test the application.
   - A contact information of the github username and email address of the project creator.
+  
+  ## Walkthrough
+https://user-images.githubusercontent.com/99289319/160344827-9f03f377-2cd5-4aeb-a045-4d8da0a1b58d.mp4
 
   ## License
   This project is covered under MIT.
