@@ -40,16 +40,10 @@ function init() {
     },
 
     {
-      type: "input",
+      type: "list",
       message: "Which of the following license is this application covered under?",
       name: "license",
-      choices: [
-        "N/A",
-        "Apache 2.0",
-        "IBM Public License Version 1.0",
-        "MIT",
-        "Mozilla Public License 2.0"
-      ]
+      choices: ['N/A', 'Apache', 'IBM', 'MIT', 'Mozilla']
     },
 
     {
