@@ -1,6 +1,6 @@
 # Professional README Generator
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
   A high-quality README allows a developer or user to get a summary of your project and engages other developers to contribute to that project. To save a project creator time on manually creating a README file, you can easily and quickly generate a README using a command-line application. By doing the following, a project creator can devote more time working on projects.
